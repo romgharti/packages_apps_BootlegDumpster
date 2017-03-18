@@ -33,13 +33,18 @@
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true"/>
 
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+             android:key="bluetooth_show_battery"
+             android:title="@string/bluetooth_battery_title"
+             android:summary="@string/bluetooth_battery_summary"
+             android:defaultValue="true"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="statusbar_battery_icon"
         android:title="@string/battery_style_category_title">
-
-        
+       
         <Preference
             android:key="sbbatteryicons"
             android:title="@string/status_bar_battery_style_title"
