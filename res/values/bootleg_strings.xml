@@ -134,6 +134,7 @@
 
     <!-- Theming -->
     <string name="style_theming_cat_title">Theming</string>
+    <string name="statusbar_icon_cat_title">Icons</string>
 
     <!-- Screen off UDFPS -->
     <string name="ambient_display_screen_off_udfps_title">Screen off UDFPS</string>
@@ -420,4 +421,8 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Status bar icons</string>
+    <string name="statusbar_items_summary">Tune and toggle your icons</string>
 </resources>
