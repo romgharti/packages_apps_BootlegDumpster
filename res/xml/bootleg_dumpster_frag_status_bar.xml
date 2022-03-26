@@ -29,4 +29,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="statusbar_battery_icon"
+        android:title="@string/battery_style_category_title">
+
+        
+        <Preference
+            android:key="sbbatteryicons"
+            android:title="@string/status_bar_battery_style_title"
+            android:summary="@string/status_bar_battery_style_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.BatteryStyleSettings" />
+ 
+     </PreferenceCategory>
+
 </PreferenceScreen>
