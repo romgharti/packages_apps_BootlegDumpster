@@ -45,6 +45,12 @@
              android:summary="@string/bluetooth_battery_summary"
              android:defaultValue="true"/>
 
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_colored_icons"
+            android:title="@string/statusbar_colored_icons_title"
+            android:summary="@string/statusbar_colored_icons_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
