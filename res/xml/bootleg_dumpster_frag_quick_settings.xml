@@ -79,6 +79,12 @@
             android:defaultValue="0" 
             android:dependency="status_bar_custom_header" />
 
+        <com.bootleggers.support.preferences.SecureSettingSwitchPreference
+            android:key="qstile_requires_unlocking"
+            android:title="@string/qstile_requires_unlocking_title"
+            android:summary="@string/qstile_requires_unlocking_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
