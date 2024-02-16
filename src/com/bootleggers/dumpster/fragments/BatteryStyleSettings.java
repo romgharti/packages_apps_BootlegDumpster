@@ -99,7 +99,6 @@ public class BatteryStyleSettings extends SettingsPreferenceFragment implements
         mQsBatteryPercent.setEnabled(
                 qsbatterystyle != BATTERY_STYLE_TEXT && qsbatterystyle != BATTERY_STYLE_HIDDEN &&
                 !(qsbatterystyle < 0 && (batterystyle == BATTERY_STYLE_TEXT || batterystyle == BATTERY_STYLE_HIDDEN)));
-        mQsBatteryPercent.setOnPreferenceChangeListener(this);
 
     }
 
