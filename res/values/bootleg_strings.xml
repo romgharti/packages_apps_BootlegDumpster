@@ -106,13 +106,13 @@
 
     <!-- Messages to send? -->
     <string name="share_chooser_title">Share our ROM via..</string>
-    <string name="bootleg_sharemsg1">Hey, i\'m using this ROM called Bootleggers, it\'s nice tbh. You should check more about it on https://bootleggersrom.github.io </string>
-    <string name="bootleg_sharemsg2">I\'ve installed Bootleggers ROM and it seems to be good at the moment, you should check more on https://bootleggersrom.github.io </string>
-    <string name="bootleg_sharemsg3">So i went to Bootleggers ROM and i\'m liking the experience for now, it\'s a pretty cool ROM </string>
-    <string name="bootleg_sharemsg4">Hey, i\'ve just flashed Bootleggers and i\'m kinda enjoying the ROM right now, i would recommend it </string>
-    <string name="bootleg_sharemsg5">I went to Bootleggers ROM, it seems pretty nice, it got some different default fonts and various features </string>
+    <string name="bootleg_sharemsg1">Hey, I\'m using this ROM called Bootleggers, it\'s nice TBH. You should check more about it on https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">I\'ve installed Bootleggers ROM and it looks good so far, you should check more on https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">So I went to Bootleggers ROM and I\'m liking the experience so far, it\'s a pretty cool ROM </string>
+    <string name="bootleg_sharemsg4">Hey, I\'ve just flashed Bootleggers and I\'m kinda enjoying the ROM right now, I would recommend it </string>
+    <string name="bootleg_sharemsg5">I went to Bootleggers ROM, it seems pretty nice, it has some different default fonts and various features </string>
     <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
-    <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
+    <string name="bootleg_sharemsg7">Um, I\'m testing Bootleggers and it\'s a bit weird but not a bad ROM </string>
 
     <!-- Build type info -->
     <string name="bootleg_ri_title_buildtype">Build Type</string>
