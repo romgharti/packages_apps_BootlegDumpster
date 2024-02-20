@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Categories -->
+    <string name="category_interface_title">"Arayüz"</string>
+    <string name="category_tweaks_title">"İnce ayarlar"</string>
+    <string name="category_buttons_title">"Tuşlar"</string>
+    <string name="category_misc_title">"Diğer"</string>
+
+    <!-- Subcategories -->
+    <!-- Interface -->
+    <string name="statusbar_title">"Durum Çubuğu"</string>
+    <string name="statusbar_summary">"Durum çubuğu güzel ama daha iyi olabilirdi"</string>
+    <string name="quicksettings_title">"Hızlı Ayarlar"</string>
+    <string name="quicksettings_summary">"O QS'i rahatlaştır"</string>
+    <string name="notifications_title">Bildirimler</string>
+    <string name="notifications_summary">"Şu bildirimleri nasıl görebileceğini değiştir"</string>
+    <string name="lockscreen_title">"Kilit Ekranı"</string>
+    <string name="lockscreen_summary">"Kilit ekranındaki düzeni ve özellikleri değiştir"</string>
+
+    <!-- Tweaks -->
+    <string name="recents_title">"Son uygulamalar"</string>
+    <string name="recents_summary">"Birden çok iş yapmak için daha fazla yöntem keşfet"</string>
+    <string name="animations_title">Animasyonlar</string>
+    <string name="animations_summary">"Şu geçişleri özelleştir"</string>
+    <string name="gestures_title">Hareketler</string>
+    <string name="gestures_summary">"İşleri kolaylaştırmak için bazı hareketler ayarla"</string>
+
+    <!-- Buttons -->
+    <string name="volume_title">"Ses Tuşları"</string>
+    <string name="volume_summary">"Şu ses tuşlarına sihirli birşeyler yaptır"</string>
+    <string name="powermenu_title">"Güç menüsü"</string>
+    <string name="powermenu_summary">"O kapatma menüsünü daha kullanışlı yap"</string>
+    <string name="navbar_title">"Gezinti çubuğu özellikleri"</string>
+    <string name="navbar_summary">"Gezinti çubuğuna bazı yeni beceriler öğret"</string>
+    <string name="hwkeys_title">"Donanım Tuşları"</string>
+    <string name="hwkeys_summary">"Donanım tuşlarının birşeylerini değiştir"</string>
+    <string name="fingerprint_title">"Parmak İzi"</string>
+    <string name="fingerprint_summary">"Güvenlik kilidinden daha fazlası"</string>
+
+    <!-- Misc -->
+    <string name="device_extras_title_fallback">"Cihaz ekstraları"</string>
+    <string name="device_extras_summary" formatted="false">"%1$s için özel ayarlar"</string>
+    <string name="device_extras_summary_fallback">"Cihazın için özel ayarlar"</string>
+    <string name="app_related_title">"Uygulamalarla alakalı ince ayarlar"</string>
+    <string name="app_related_summary">"Tüm uygulamalar için evrensel değişiklikler"</string>
+    <string name="system_title">"Sistem özellikleri"</string>
+    <string name="system_summary">"Bazı merdiven altı özellikler"</string>
+    <string name="about_bootleg_title">"Bootleggers hakkında"</string>
+    <string name="about_bootleg_summary">"Bizim ve derlemen hakkında bilgiler"</string>
+
+    <!-- About Bootleggers  -->
+    <string name="about_bootleg_small_title">"Hakkımızda"</string>
+    <string name="about_bootleg_small_summary">"Projemiz hakkında bazı bilgiler"</string>
+
+    <!-- DUMPSTER - About Section strings -->
+    <string name="bootleg_pref_title_about_us" translatable="false">@string/about_bootleg_small_title</string>
+    <string name="bootleg_ab_title_whoami">Bootleggers nedir?</string>
+    <string name="bootleg_ab_summary_whoami">"Bootleggers, 家 gibi hissetmeni sağlamak amacıyla özellikler ve uygulamalarla paketlenmiş bir ROM'dur. Umarız seversin ve deneyimimizin tadını çıkarırsın.</string>
+    <string name="bootleg_ab_title_thankssec">"Teşekkür listesi"</string>
+    <string name="bootleg_ab_summary_thankssec" formatted="false">"Bu projeyi yapan ve esinleyenleri görmek için buraya dokun (İngilizce). Ayrıca, %1s isimli kişiye %2s kod adlı cihaza getirdiği için çok teşekkür ederiz."</string>
+    <string name="bootleg_ab_summary_thanksclean">"Bu projeyi yapan ve esinleyenleri görmek için buraya dokun (İngilizce)."</string>
+    <string name="bootleg_pref_title_romextras">"Ekstralar ve Eklentiler"</string>
+    <string name="bootleg_ex_title_featurelist">"Özellik Listesi"</string>
+    <string name="bootleg_ex_summary_featurelist">"Bu derlemedeki mevcut özelliklerin listesini kontrol et (İngilizce)"</string>
+    <string name="bootleg_ex_title_addons">"Eklentiler ve İndirmeler"</string>
+    <string name="bootleg_ex_summary_addons">"Bizim tarafımızdan önerilen Temaların ve Modların listesi (bir başka deyişle dürüst reklamlar) (İngilizce)"</string>
+    <string name="bootleg_ex_title_sharemsg">"ROM'umuzu paylaş"</string>
+    <string name="bootleg_ex_summary_sharemsg">"Başkalarının bizden ve çalışmamızdan haberdar olmalarını sağla! Çok takdir ederiz."</string>
+    <string name="bootleg_ab_madstinky_test">"Görünüşe göre bir test derlemesi çalıştırıyorsun, ki bu açıkça tamamen deneme derlemesi kullanıyorsun demek, ve hatalar ve birşeylerin çökmesi beklenir. Eğer karşılaştığın hatalar bu derlemenin gönderisinde listelenmemişse lütfen doğru kişiye (ki bu durumda o kişi bunu derleyen kişi) bildirmek için çaba sarf edin. Teşekkürler"</string>
+    <string name="bootleg_changelog_title">"Değişiklik kaydını gör"</string>
+    <string name="bootleg_changelog_summary">"Bu derlemede eklenen en son değişiklikleri görün"</string>
+    <string name="bootleg_changelog_title_alt">"Değişiklik kaydı"</string>
+
+    <!-- More about us strings -->
+    <string name="bootleg_pref_moarstuff_title">"Bizim hakkımızda daha fazlası mı?"</string>
+    <string name="bootleg_pref_moarstuff_info_title">"Bilgi ve kaynaklar"</string>
+    <string name="bootleg_moarstuff_blog_title">"Blogumuz"</string>
+    <string name="bootleg_moarstuff_blog_summary">"Yayınlamalar ve haberler hakkında gönderi yapacağımız yer (İngilizce)"</string>
+    <string name="bootleg_moarstuff_git_title">"GitHub'ımız"</string>
+    <string name="bootleg_moarstuff_git_summary">Where "Kaynaklarımızın ve geri çekmelerimizin bulunduğu yer (İngilizce)"</string>
+    <string name="bootleg_pref_moarstuff_social_title">"Bize ulaşın!"</string>
+    <string name="bootleg_moarstuff_tg_title">Our "Telegram Komünitesi"</string>
+    <string name="bootleg_moarstuff_tg_summary">"Bizimle konuş, gelecek güncellemelerle heyecanlan ve harika komünitemize katıl"</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">"Sanırım bu çok da gizli olmayan yeri buldun ama eee, buraya geldiysen bu ROM'u yüklediğin için teşekkürlerimizi sunmak isteriz ve şey, önceden de çok defa söylediğimiz gibi, umarız tadını çıkarırsın ve bu ROM'la iyi vakit geçirirsin."</string>
+    <string name="bootleg_moarstuff_faq_title">"SSS'miz"</string>
+    <string name="bootleg_moarstuff_cd_title">"Crowdin'imiz"</string>
+    <string name="bootleg_moarstuff_cd_back_summary">"Dilini konuşmuyor muyuz? O zaman buraya gel ve ROM'umuzu dilediğin gibi kendi diline çevir!"</string>
+    <string name="bootleg_moarstuff_cd_summary02">"O zaman buraya gel ve ROM'umuzu dilediğin gibi kendi diline çevir!"</string>
+    <string name="bootleg_moarstuff_faq_summary">"Tüm çoğunlukla sorulan soruların ve istenen özelliklerin cevaplarını aldığı yer."</string>
+    <string name="bootleg_moarstuff_donos_title">"Projemizi destekle"</string>
+    <string name="bootleg_moarstuff_donos_summary">"Projemizi desteklemek için bağış yap, çok takdir ederiz"</string>
+
+    <!-- Messages to send? -->
+    <string name="share_chooser_title">"ROM'umuzu şununla paylaş"</string>
+    <string name="bootleg_sharemsg1">"Hey, Bootleggers isimli bir ROM kullanıyorum, bence güzel. https://bootleggersrom.github.io adresinde daha fazlasına göz atmalısın"</string>
+    <string name="bootleg_sharemsg2">"Bootleggers ROM'u kurdum ve şu ana kadar güzel görünüyor, https://bootleggersrom.github.io adresinde daha fazlasına göz atmalısın"</string>
+    <string name="bootleg_sharemsg3">"Şimdi Bootleggers ROM'a geçtim ve şu ana kadarki deneyimi beğendim, havalı bir ROM, severiz "</string>
+    <string name="bootleg_sharemsg4">"Hey, Bootleggers kurdum ve az buçuk ROM'a ısındım, öneririm "</string>
+    <string name="bootleg_sharemsg5">"Bootleggers ROM'a geçtim, oldukça iyi görünüyor, bazı değişik varsayılan yazı tipleri ve türlü özellikleri var "</string>
+    <string name="bootleg_sharemsg6">"Bootleggers ROM'u şimdi dene! https://bootleggersrom.github.io "</string>
+    <string name="bootleg_sharemsg7">"Şey, Bootleggers'ı test ediyorum ve biraz garip ama kötü bir ROM değil "</string>
+
+    <!-- Build type info -->
+    <string name="bootleg_ri_title_buildtype">"Derleme Tipi"</string>
+    <string name="bootleg_ri_summary_buildtype" formatted="false">Derlemen %1s... ya da %2s.</string>
+    <string name="bootleg_pref_title_rominfo">ROM Bilgisi</string>
+    <string name="bootleg_ri_title_ota">"OTA Güncellemeleri"</string>
+    <string name="bootleg_ri_summary_ota">"Yeni bir derleme var mı diye bak"</string>
+    <string name="bootleg_ri_title_musicode">"Müzik Kod Adı"</string>
+    <string name="bootleg_ri_summary_musicode" formatted="false">%1s</string>
+
+    <!-- General strings -->
+    <string name="ok">Tamam</string>
+    <string name="reset">"Sıfırla"</string>
+    <string name="cancel">"İptal"</string>
+    <string name="save">Kaydet</string>
+
+    <!-- Footer alerts -->
+    <string name="animations_transparent_alert">"Cihazında saydam bir tema varsa bu animasyonların bazıları (ya da hiçbiri) çalışmayabilir!"</string>
+
+    <!-- Theming -->
+    <string name="style_theming_cat_title">Temalama</string>
+
+    <!-- Screen off UDFPS -->
+    <string name="ambient_display_screen_off_udfps_title">"Ekran kapalı ekran-altı parmak izi"</string>
+    <string name="ambient_display_screen_off_udfps_summary">"Ekran kapalıyken ekran-altı parmak izini açık tut"</string>
+
+    <!-- Advanced Reboot -->
+    <string name="global_actions_advanced_reboot_title">"Gelişmiş yeniden başlatmayı etkinleştir"</string>
+    <string name="global_actions_advanced_reboot_summary">"Güç menüsünde kurtarma ve önyükleme modları için seçenekler göster"</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">"Ekran kapatma animasyonu"</string>
+    <string name="screen_off_animation_default">"Varsayılan"</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">"Ölçek"</string>
+
+    <!-- Lock screen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">"Kilit ekranı şarj bilgisi"</string>
+    <string name="lockscreen_battery_info_summary">"Şarj ederken kilit ekranında şarj cihazının tespit edilen maksimum voltajını ve pil sıcaklığını göster"</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">saniye</string>
+    <string name="unit_milliseconds">milisaniye</string>
+    <string name="unit_pixels">piksel</string>
+
+    <!-- Statusbar items category -->
+    <string name="status_bar_items_category_title">"Durum çubuğu göstergeleri"</string>
+
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock_date_title">"Saat ve tarih"</string>
+    <string name="status_bar_clock_date_summary">"Durum çubuğu saat ve tarihini özelleştir"</string>
+    <string name="status_bar_clock_title">"Saat ayarları"</string>
+    <string name="status_bar_clock_show">"Saat ve tarihi göster"</string>
+    <string name="status_bar_clock_style_title">Saat tipi</string>
+    <string name="status_bar_clock_style_left">Sol</string>
+    <string name="status_bar_clock_style_right">"Sağ"</string>
+    <string name="status_bar_clock_style_center">Orta</string>
+    <string name="status_bar_clock_style_hidden">Gizli</string>
+    <string name="status_bar_clock_auto_hide_title">Otomatik gizle</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">"Ana ekrana döndüğünde saati gizle"</string>
+    <string name="status_bar_clock_auto_hide_summary">"Saati belli zaman aralıklarında gizle"</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">"Gizleme süresi"</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">"Saatin gizlendiği süre zarfı"</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">"Gösterme süresi"</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">"Saati gizlemeden önce beklenilecek süre"</string>
+    <string name="status_bar_am_pm_title">"ÖÖ/ÖS tarzı"</string>
+    <string name="status_bar_am_pm_info">"24-saat saat etkin"</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">"Küçük"</string>
+    <string name="status_bar_am_pm_hidden">"Gizli (varsayılan)"</string>
+    <string name="clock_seconds_display">"Saniyeleri göster"</string>
+    <string name="clock_date_position">"Tarih konumu"</string>
+    <string name="clock_date_left">"Saatin solunda"</string>
+    <string name="clock_date_right">"Saatin sağında"</string>
+    <string name="status_bar_date_title">"Tarih ayarları"</string>
+    <string name="clock_date_display">Tarih</string>
+    <string name="clock_date_display_none">"Gösterme"</string>
+    <string name="clock_date_display_small">"Küçük yazı tipi boyutu"</string>
+    <string name="clock_date_display_normal">"Normal yazı tipi boyutu"</string>
+    <string name="clock_date_style">"Tarih tipi"</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">"Tüm harfler küçük"</string>
+    <string name="clock_date_style_uppercase">"Tüm harfler büyük"</string>
+    <string name="clock_date_format_custom">"Özel Java formatı"</string>
+    <string name="clock_date_format">"Tarih formatı"</string>
+    <string name="clock_date_string_edittext_title">"Java'daki DateFormat halinde olmalı, mesela MM/dd/yy"</string>
+    <string name="clock_date_string_edittext_summary">"String gir"</string>
+
+    <!-- Status bar - Battery -->
+    <string name="battery_style_category_title">"Pil simgesi"</string>
+    <string name="status_bar_battery_category_title">"Durum çubuğu pil özelleştirmeleri"</string>
+    <string name="status_bar_battery_style_title">"Pil tarzı"</string>
+    <string name="status_bar_battery_style_summary">"Durum çubuğu ve hızlı ayarlar pil tarzı"</string>
+    <string name="status_bar_battery_style_icon_portrait">"Dikey simge"</string>
+    <string name="status_bar_battery_style_icon_rlandscape">"Yatay simge (sağa yatık)"</string>
+    <string name="status_bar_battery_style_icon_landscape">"Yatay simge (sola yatık)"</string>
+    <string name="status_bar_battery_style_circle">"Çember"</string>
+    <string name="status_bar_battery_style_dotted_circle">"Noktalı çember"</string>
+    <string name="status_bar_battery_style_filled_circle">"Daire"</string>
+    <string name="status_bar_battery_style_big_circle">"Büyük çember"</string>
+    <string name="status_bar_battery_style_big_dotted_circle">"Büyük noktalı çember"</string>
+    <string name="status_bar_battery_style_text">Metin</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
+    <string name="status_bar_battery_percent_title">"Pil yüzdeliği"</string>
+    <string name="status_bar_battery_percent_hidden">Gizli</string>
+    <string name="status_bar_battery_percent_text_inside">"Simgenin içinde"</string>
+    <string name="status_bar_battery_percent_text_next_right">"Simgenin sağında"</string>
+    <string name="status_bar_battery_percent_text_next_left">"Simgenin solunda"</string>
+    <string name="status_bar_battery_text_charging_title">"Şarj olurken yüzdeliği göster"</string>
+    <string name="status_bar_battery_text_charging_summary">"Şarj olurken pil yüzdeliğini her zaman göster"</string>
+
+    <!-- QS battery -->
+    <string name="qs_battery_category_title">"Hızlı ayarlar pil özelleştirmesi"</string>
+    <string name="qs_use_status_bar_battery_style">"Durum çubuğu tarzını takip et"</string>
+
+    <!-- QS Headers -->
+    <string name="status_bar_custom_header_title">"Etkinleştir"</string>
+    <string name="daylight_header_pack_title">"Başlık resmi koleksiyonu"</string>
+    <string name="status_bar_custom_header_shadow_title">"Başlık resmi gölgesi"</string>
+    <string name="status_bar_custom_header_shadow_summary">"Açık renkli resimlerde daha iyi görünürlük için"</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">"Statik resim"</string>
+    <string name="daylight_header_provider_title">"Resim koleksiyonu"</string>
+    <string name="custom_header_provider_title">"Başlık sağlayıcısı"</string>
+    <string name="custom_header_browse_title">"Yüklü başlıkları gez"</string>
+    <string name="custom_header_browse_summary">"Statik modda kullanmak için herhangi bir resme tıkla"</string>
+    <string name="custom_header_browse_summary_new">"Mevcut tüm başlık koleksiyonlarını gez"</string>
+    <string name="custom_header_pick_title">"Başlık resmi seç"</string>
+    <string name="custom_header_pick_summary">"Statik modda kullanmak için bir resim seç"</string>
+    <string name="style_enabled_summary">"Özel başlık resmi AÇIK"</string>
+    <string name="style_disabled_summary">"Özel başlık resmi KAPALI"</string>
+    <string name="header_provider_disabled">"Devre dışı"</string>
+    <string name="custom_header_title">"Özel başlık resmi"</string>
+    <string name="file_header_select_title">"Resim seç"</string>
+    <string name="file_header_select_summary">"Özel resim seç"</string>
+    <string name="file_header_provider_title">"Özel resim"</string>
+
+    <!-- QS Header offset -->
+    <string name="status_bar_custom_header_offset_title">"Başlık resmi dengesi"</string>
+    <string name="status_bar_custom_header_offset_summary">"Başlık resmi boyutunu ayarla"</string>
+   
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">"Oynatma kontrolü"</string>
+    <string name="volume_button_music_control_summary">"Ekran kapalıyken ses tuşlarına uzun basmak müzik parçaları arasında geçiş yapacak"</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">"Kilit ekranında güç menüsüne izin ver"</string>
+    <string name="lockscreen_enable_power_menu_summary">"Güvenli kilit ekranındayken güç menüsüne erişime izin ver"</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">"Veri devre dışı simgesini göster"</string>
+    <string name="data_disabled_icon_summary">"Veri devre dışıyken sinyal barının dibinde ünlem işareti göster"</string>
+
+     <!-- Ignore window secure -->
+    <string name="laboratory_ignore_window_secure_title">"Güvenli pencere bayraklarını yoksay"</string>
+    <string name="laboratory_ignore_window_secure_summary">"Bu tüm uygulamalar için ekran görüntüsü ve ekran kaydı kısıtlamalarını kaldırır. Normalde özel uygulamalar kayıtlarda siyah alanlarla kaplanır. Bu bazı durumlarda işe yarayabilir ama gizlilik ihlallerine de neden olabilir. Bu anahtarı değiştirdikten sonra değişikliğin uygulanması için uygulamaları kapatıp geri açman gerekebilir."</string>
+
+    <!-- Quick Settings brightness slider -->
+     <string name="qs_show_brightness_slider_title">"Parlaklık kaydıracı"</string>
+     <string name="qs_show_brightness_slider_never">"Asla gösterme"</string>
+     <string name="qs_show_brightness_slider_expanded">"Genişletilince göster"</string>
+     <string name="qs_show_brightness_slider_always">"Her zaman göster"</string>
+     <string name="qs_show_brightness_slider_not_expanded">"Genişletilmedikçe göster"</string>
+     <string name="qs_brightness_slider_position_title">"Konum"</string>
+     <string name="qs_brightness_slider_position_top">"Üst"</string>
+     <string name="qs_brightness_slider_position_bottom">"Alt"</string>
+
+     <!-- Quick Settings brightness icon -->
+     <string name="qs_show_auto_brightness_title">"Otomatik parlaklık simgesi"</string>
+     <string name="qs_show_auto_brightness_summary">"Kaydıracın yanında uyarlanabilir parlaklık anahtarını göster"</string>
+
+    <!-- Bluetooth battery status --> 
+    <string name="bluetooth_battery_title">"Bluetooth pil durumu"</string>
+    <string name="bluetooth_battery_summary">"Mevcutsa bağlı Bluetooth cihazının pil düzeyini göster"</string>
+
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">"Güvenli hızlı ayarlar kilit açmayı gerektirir"</string>
+    <string name="qstile_requires_unlocking_summary">"Aşağıdaki hızlı ayarlar kilit ekranından erişmeden önce kilit açmayı gerektirir:\nUçak modu, mobil veri, NFC, Mobil etkin nokta, USB etkin nokta ve Konum"</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_settings_title">"Ağ trafiği göstergesi"</string>
+    <string name="network_traffic_settings_summary">"Mevcut ağ trafiği seviyelerini göster ve özelleştir"</string>
+    <string name="network_traffic_location_title">Konum</string>
+    <string name="network_traffic_location_disable">"Devre dışı"</string>
+    <string name="network_traffic_location_statusbar">"Durum çubuğu"</string>
+    <string name="network_traffic_location_quick_statusbar">"Hızlı durum çubuğu"</string>
+    <string name="network_traffic_mode_title">"Gösterme modu"</string>
+    <string name="network_traffic_mode_up">"Yalnızca yükleme"</string>
+    <string name="network_traffic_mode_down">"Yalnızca indirme"</string>
+    <string name="network_traffic_mode_all">"Yükleme ve indirme"</string>
+    <string name="network_traffic_autohide">"Otomatik gizle"</string>
+    <string name="network_traffic_autohide_summary">"Aktif değilken trafik göstergesini gizle"</string>
+    <string name="network_traffic_autohide_kilobits">Kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_autohide_threshold">"Aktiflik eşiği"</string>
+    <string name="network_traffic_refresh_interval_title">"Yenileme aralığı"</string>
+    <string name="network_traffic_refresh_interval_summary">"Hız yeniden ölçüldükten sonraki süre"</string>
+    <string name="network_traffic_units_title">"Trafik ölçüm birimi"</string>
+    <string name="network_traffic_units_bits">"Bit/saniye (b/s)"</string>
+    <string name="network_traffic_units_kilobits">"Kilobit/saniye (kb/s)"</string>
+    <string name="network_traffic_units_megabits">"Megabit/saniye (Mb/s)"</string>
+    <string name="network_traffic_units_bytes">"Bayt/saniye (B/s)"</string>
+    <string name="network_traffic_units_kilobytes">"Kilobayt/saniye (kB/s)"</string>
+    <string name="network_traffic_units_megabytes">"Megabayt/saniye (MB/s)"</string>
+    <string name="network_traffic_hidearrow">"Okları gizle"</string>
+    <string name="network_traffic_hidearrow_summary">"Ağ trafiği gösterge oklarını gizle"</string>
+
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">"Renkli simgeler"</string>
+    <string name="statusbar_colored_icons_summary">"Durum çubuğunda bildirim simgeleri için uygun uygulama simgelerini kullan"</string>
+
+    <!-- Notification count -->
+    <string name="statusbar_notif_count_title">"Bildirim sayısını göster"</string>
+    <string name="statusbar_notif_count_summary">"Bekleyen bildirimlerin sayısını göster"</string>
+</resources>
