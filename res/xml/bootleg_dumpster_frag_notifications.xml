@@ -25,6 +25,12 @@
         android:summary="@string/heads_up_notifications_summary"
         android:fragment="com.bootleggers.dumpster.fragments.HeadsUpSettings" />
 
+    <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
