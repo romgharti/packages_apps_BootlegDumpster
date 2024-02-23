@@ -18,6 +18,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
 
+    <!-- Heads up -->
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:summary="@string/heads_up_notifications_summary"
+        android:fragment="com.bootleggers.dumpster.fragments.HeadsUpSettings" />
+
     <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
