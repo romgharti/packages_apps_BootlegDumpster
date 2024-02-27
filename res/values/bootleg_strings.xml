@@ -435,4 +435,8 @@
     <string name="lockscreen_weather_enabled_info">Requires weather service to be enabled</string>
     <string name="lockscreen_weather_location_title">Weather location</string>
     <string name="lockscreen_weather_location_summary">Display current weather location</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
 </resources>
