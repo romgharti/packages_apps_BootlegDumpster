@@ -42,12 +42,11 @@
         android:entryValues="@array/pulse_render_mode_values"
         android:defaultValue="1"/>
 
-    <com.bootleggers.support.preferences.SecureSettingSwitchPreference
+    <com.bootleggers.support.preferences.SecureSettingListPreference
         android:key="pulse_custom_gravity"
         android:title="@string/pulse_custom_gravity_title"
         android:entries="@array/pulse_custom_gravity_entries"
         android:entryValues="@array/pulse_custom_gravity_values"
-        android:summary="%s"
         android:defaultValue="0" />
 
     <com.bootleggers.support.preferences.SecureSettingSwitchPreference
