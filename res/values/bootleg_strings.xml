@@ -447,4 +447,8 @@
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow application downgrade</string>
     <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Show 4G icon</string>
+    <string name="show_fourg_icon_summary">Display the 4G icon on the signal icon instead of LTE</string>
 </resources>
