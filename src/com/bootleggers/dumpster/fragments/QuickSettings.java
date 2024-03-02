@@ -27,6 +27,8 @@ import android.view.View;
 import com.bootleggers.support.preferences.CustomSeekBarPreference;
 import com.bootleggers.support.preferences.SystemSettingSwitchPreference;
 
+import com.android.internal.util.bootleg.ThemeUtils;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -46,6 +48,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String FILE_HEADER_SELECT = "file_header_select";
     private static final String QS_HEADER_OFFSET = "status_bar_custom_header_height";
     private static final int REQUEST_PICK_IMAGE = 0;
+    private static final String QS_UI_STYLE = "qs_tile_ui_style";
 
     private Preference mHeaderBrowse;
     private ListPreference mDaylightHeaderPack;
@@ -56,12 +59,17 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private Preference mFileHeader;
     private String mFileHeaderProvider;
     private CustomSeekBarPreference mQsHeaderOffset;
+    private ListPreference mQsUI;
+
+    private static ThemeUtils mThemeUtils;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.bootleg_dumpster_frag_quick_settings);
+
+        mThemeUtils = new ThemeUtils(getActivity());
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
@@ -115,6 +123,15 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_CUSTOM_HEADER_HEIGHT, 142);
         mQsHeaderOffset.setValue((headerOffset));
         mQsHeaderOffset.setOnPreferenceChangeListener(this);
+
+        String isA11Style = Integer.toString(Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_UI_STYLE , 0, UserHandle.USER_CURRENT));
+
+        mQsUI = (ListPreference) findPreference(QS_UI_STYLE);
+        int index = mQsUI.findIndexOfValue(isA11Style);
+        mQsUI.setValue(isA11Style);
+        mQsUI.setSummary(mQsUI.getEntries()[index]);
+        mQsUI.setOnPreferenceChangeListener(this);
     }
 
     private void updateHeaderProviderSummary(boolean headerEnabled) {
@@ -177,6 +194,16 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                         Settings.System.STATUS_BAR_CUSTOM_HEADER_HEIGHT, headerOffset);
                 return true;
 
+            case QS_UI_STYLE:
+                int qsUiValue = Integer.parseInt((String) newValue);
+                int qsUiIndex = mQsUI.findIndexOfValue((String) newValue);
+                mQsUI.setValue((String) newValue);
+                mQsUI.setSummary(mQsUI.getEntries()[qsUiIndex]);
+                Settings.System.putIntForUser(resolver,
+                        Settings.System.QS_TILE_UI_STYLE, qsUiValue, UserHandle.USER_CURRENT);
+                updateQsStyle(getActivity());
+                return true;
+
             default:
                 return false;
         }
@@ -232,6 +259,28 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             entries.add(label);
             values.add(headerMap.get(label));
         }
+    }
+
+    private static void updateQsStyle(Context context) {
+        ContentResolver resolver = context.getContentResolver();
+
+        boolean isA11Style = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_UI_STYLE , 0, UserHandle.USER_CURRENT) != 0;
+
+	    String qsUIStyleCategory = "android.theme.customization.qs_ui";
+        String overlayThemeTarget  = "com.android.systemui";
+        String overlayThemePackage  = "com.android.system.qs.ui.A11";
+
+        if (mThemeUtils == null) {
+            mThemeUtils = new ThemeUtils(context);
+        }
+
+	    // reset all overlays before applying
+        mThemeUtils.setOverlayEnabled(qsUIStyleCategory, overlayThemeTarget, overlayThemeTarget);
+
+	    if (isA11Style) {
+            mThemeUtils.setOverlayEnabled(qsUIStyleCategory, overlayThemePackage, overlayThemeTarget);
+	    }
     }
 
     @Override
