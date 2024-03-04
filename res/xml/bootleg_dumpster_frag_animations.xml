@@ -24,6 +24,12 @@
         android:entryValues="@array/screen_off_animation_values"
         android:defaultValue="0" />
 
+    <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+        android:key="charging_animation"
+        android:title="@string/charging_animation_title"
+        android:summary="@string/charging_animation_summary"
+        android:defaultValue="true" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="footer_anim_transparent_theme"
         android:title="@string/animations_transparent_alert"
